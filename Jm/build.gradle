@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'war'
 
-archivesBaseName = 'Concretepage2'
+archivesBaseName = 'ejm'
 version = '1.0-SNAPSHOT' 
 repositories {
     mavenCentral()

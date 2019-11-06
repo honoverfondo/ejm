@@ -5,29 +5,16 @@
   <session-factory>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">
-    jdbc:mysql://localhost:3306/ejunt</property>
+    	jdbc:mysql://localhost:3306/ejm</property>
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password"></property>
     <property name="hibernate.connection.pool_size">10</property>
     <property name="show_sql">true</property>
     <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
-     <mapping class="mz.gov.misau.entity.Bairro"/>
-     <mapping class="mz.gov.misau.entity.Rua"/>
-     <mapping class="mz.gov.misau.entity.Civil"/> 
-     <mapping class="mz.gov.misau.entity.Contrato"/>  
-     <mapping class="mz.gov.misau.entity.Distrito"/> 
-     <mapping class="mz.gov.misau.entity.Documento"/> 
-     <mapping class="mz.gov.misau.entity.Emissao"/> 
-     <mapping class="mz.gov.misau.entity.Tipo"/> 
-     <mapping class="mz.gov.misau.entity.Sexo"/>
-     <mapping class="mz.gov.misau.entity.Tipo"/>
-     <mapping class="mz.gov.misau.entity.Profissao"/> 
-     <mapping class="mz.gov.misau.entity.Estado"/>
-     <mapping class="mz.gov.misau.entity.Empresa"/> 
-     <mapping class="mz.gov.misau.entity.Parentesco"/>
-     <mapping class="mz.gov.misau.entity.Us"/>
-     <mapping class="mz.gov.misau.entity.Provincia"/>     
-     <mapping class="mz.gov.misau.entity.Contacto"/>     
+    <mapping class="mz.gov.misau.entity.Provincia"/> 
+  	<mapping class="mz.gov.misau.entity.Distrito"/>     
+    <mapping class="mz.gov.misau.entity.Bairro"/>
+    <mapping class="mz.gov.misau.entity.Rua"/> 
    </session-factory>
 </hibernate-configuration> 

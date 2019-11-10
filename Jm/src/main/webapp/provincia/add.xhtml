@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    >
+ 
+<h:head>
+    <title>e-Junta de Saúde-Provincia</title>
+    
+</h:head>
+	<ui:composition template="/template/main.xhtml">
+		<ui:define name="conteudo">
+			 
+			 
+			 
+			 <h:form id="addProvincia" class="form-horizontal">
+	   		
+	   		<div class="col-md-12">
+            <div class="card card-user">
+              <div class="card-header">
+                <h5 class="card-title">Provincia</h5>
+              </div>
+              <div class="card-body">
+              
+                  
+               
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Provincia</label>
+                       	<h:inputText class="form-control" placeholder="Nome da provincia" value="#{MBProvincia.provincia.nome}"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="update ml-auto mr-auto">
+                        <h:commandButton value="Registar" class="btn btn-primary btn-round" action="#{MBProvincia.insertProvincia}" />                           
+                     
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          
+          
+          </h:form>
+		</ui:define>
+	</ui:composition>
+<h:body>
+
+</h:body>
+</html>
